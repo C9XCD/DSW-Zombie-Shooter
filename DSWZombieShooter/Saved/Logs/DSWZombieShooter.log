@@ -1277,3 +1277,152 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.04.10-08.29.44:502][633]LogSavePackage: Moving '../../../../../Unreal Projects/DSW-Zombie-Shooter/DSWZombieShooter/Saved/Shooter_Level13EEBC7CC400BF3756ADB9C816F31ED8E.tmp' to '../../../../../Unreal Projects/DSW-Zombie-Shooter/DSWZombieShooter/Content/Maps/Shooter_Level1.umap'
 [2022.04.10-08.29.44:520][633]AssetCheck: New page: Asset Save: Shooter_Level1
 [2022.04.10-08.29.44:520][633]LogContentValidation: Display: Validating World /Game/Maps/Shooter_Level1.Shooter_Level1
+[2022.04.10-08.39.46:250][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.04.10-08.39.46:262][490]LogSavePackage: Moving '../../../../../Unreal Projects/DSW-Zombie-Shooter/DSWZombieShooter/Saved/Shooter_Persistent_Auto1B8A030974AEDAE403735EFB3CD919BF3.tmp' to '../../../../../Unreal Projects/DSW-Zombie-Shooter/DSWZombieShooter/Saved/Autosaves/Game/Maps/Shooter_Persistent_Auto1.umap'
+[2022.04.10-08.39.46:264][490]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Shooter_Persistent' took 0.036
+[2022.04.10-08.39.46:264][490]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.036
+[2022.04.10-08.41.06:097][164]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.10-08.41.06:107][164]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.04.10-08.41.06:108][164]LogPlayLevel: [PlayLevel] Compiling Shooter_Persistent before play...
+[2022.04.10-08.41.06:150][164]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2022.04.10-08.41.06:152][164]LogPlayLevel: PlayLevel: Blueprint regeneration took 45 ms (1 blueprints)
+[2022.04.10-08.41.06:153][164]PIE: New page: PIE session: Shooter_Persistent (10 kwi 2022, 12:41:06)
+[2022.04.10-08.41.06:153][164]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Shooter_Persistent
+[2022.04.10-08.41.06:155][164]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001987s)
+[2022.04.10-08.41.06:156][164]LogAIModule: Creating AISystem for world Shooter_Persistent
+[2022.04.10-08.41.06:156][164]LogPlayLevel: PIE: World Init took: (0.001358s)
+[2022.04.10-08.41.06:156][164]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Shooter_Persistent.Shooter_Persistent to /Game/Maps/UEDPIE_0_Shooter_Persistent.Shooter_Persistent (0.003485s)
+[2022.04.10-08.41.06:172][164]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2022.04.10-08.41.06:172][164]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2022.04.10-08.41.06:172][164]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.10-08.41.06:172][164]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.10-08.41.06:172][164]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.10-08.41.06:172][164]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.10-08.41.06:172][164]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.10-08.41.06:172][164]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.10-08.41.06:172][164]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.10-08.41.06:172][164]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.10-08.41.06:173][164]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.10-08.41.06:173][164]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.10-08.41.06:177][164]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.10-08.41.06:177][164]LogAudioMixer: Display: 1: FrontRight
+[2022.04.10-08.41.06:191][164]LogAudioMixer: Display: Using Audio Device Głośniki (High Definition Audio Device)
+[2022.04.10-08.41.06:191][164]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.10-08.41.06:191][164]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.10-08.41.06:191][164]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.10-08.41.06:192][164]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.10-08.41.06:192][164]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.10-08.41.06:192][164]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.10-08.41.06:208][164]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.10-08.41.06:208][164]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.10-08.41.06:208][164]LogInit: FAudioDevice initialized.
+[2022.04.10-08.41.06:208][164]LogAudio: Display: Audio Device (ID: 5) registered with world 'Shooter_Persistent'.
+[2022.04.10-08.41.06:219][164]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.04.10-08.41.06:220][164]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shooter_Persistent.Shooter_Persistent up for play (max tick rate 0) at 2022.04.10-10.41.06
+[2022.04.10-08.41.06:220][164]LogWorld: Bringing up level for play took: 0.000425
+[2022.04.10-08.41.06:220][164]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2022.04.10-08.41.06:223][164]LogLevel: ActivateLevel /Game/Maps/UEDPIE_0_Shooter_Level1 1 1 1
+[2022.04.10-08.41.06:224][164]PIE: Server logged in
+[2022.04.10-08.41.06:225][164]PIE: Play in editor total start time 0,121 seconds.
+[2022.04.10-08.41.06:422][165]LogLevel: ActivateLevel /Game/UEDPIE_0_PJ 1 1 1
+[2022.04.10-08.41.06:536][166]LogLevel: Warning: Failed to find streaming level object associated with 'Shooter_Lights'
+[2022.04.10-08.41.06:557][167]LogLevel: ActivateLevel /Game/Maps/UEDPIE_0_Shooter_StreamingLevel 1 1 1
+[2022.04.10-08.41.06:959][188]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PrimaryWeapon". Blueprint:  FPSPawn_BP Function:  Execute Ubergraph FPSPawn BP Graph:  EventGraph Node:  Fire
+[2022.04.10-08.41.06:959][188]LogAnimMontage: Warning: Playing a Montage (AK_Fire_anim_Montage) for the wrong Skeleton (FPSArms_rigged_Skeleton) instead of (AK_rigged_Skeleton).
+[2022.04.10-08.41.06:959][188]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PrimaryWeapon". Blueprint:  FPSPawn_BP Function:  Execute Ubergraph FPSPawn BP Graph:  EventGraph Node:  Fire
+[2022.04.10-08.41.06:959][188]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PrimaryWeapon". Blueprint:  FPSPawn_BP Function:  Execute Ubergraph FPSPawn BP Graph:  EventGraph Node:  Branch
+[2022.04.10-08.41.11:676][588]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.10-08.41.11:676][588]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Shooter_Persistent
+[2022.04.10-08.41.11:681][588]LogWorld: UWorld::CleanupWorld for Shooter_Persistent, bSessionEnded=true, bCleanupResources=true
+[2022.04.10-08.41.11:681][588]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.10-08.41.11:696][588]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.10-08.41.11:714][588]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.10-08.41.11:740][588]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.10-08.41.11:740][588]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.10-08.41.11:741][588]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.10-08.41.11:767][588]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2022.04.10-08.41.11:892][589]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2022.04.10-08.41.11:910][589]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2022.04.10-08.41.13:177][649]LogSlate: Window 'Message Log' being destroyed
+[2022.04.10-08.41.13:203][649]LogSlate: Window 'Message Log' being destroyed
+[2022.04.10-08.41.26:795][371]LogContentBrowser: Attempting asset rename: Shooter_World_Lights -> Shooter_World_Lights
+[2022.04.10-08.41.32:925][698]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Maps/Shooter_Persistent.Shooter_Persistent:PersistentLevel.Shooter_Persistent
+[2022.04.10-08.41.34:078][698]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 126 classes and 0 folders.
+[2022.04.10-08.41.35:369][698]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.04.10-08.41.48:442][424]BlueprintLog: New page: Compile Shooter_Persistent
+[2022.04.10-08.41.48:506][424]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2022.04.10-08.41.49:893][492]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.04.10-08.41.49:901][492]LogSavePackage: Moving '../../../../../Unreal Projects/DSW-Zombie-Shooter/DSWZombieShooter/Saved/Shooter_Persistent9CD5500148EB0C09F579E59CA6A89CF4.tmp' to '../../../../../Unreal Projects/DSW-Zombie-Shooter/DSWZombieShooter/Content/Maps/Shooter_Persistent.umap'
+[2022.04.10-08.41.49:952][492]LogFileHelpers: Saving map 'Shooter_Persistent' took 0.090
+[2022.04.10-08.41.49:971][492]AssetCheck: New page: Asset Save: Shooter_Persistent
+[2022.04.10-08.41.49:971][492]LogContentValidation: Display: Validating World /Game/Maps/Shooter_Persistent.Shooter_Persistent
+[2022.04.10-08.41.50:835][536]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.10-08.41.50:845][536]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.10-08.41.50:845][536]PIE: New page: PIE session: Shooter_Persistent (10 kwi 2022, 12:41:50)
+[2022.04.10-08.41.50:845][536]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Shooter_Persistent
+[2022.04.10-08.41.50:848][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002361s)
+[2022.04.10-08.41.50:849][536]LogAIModule: Creating AISystem for world Shooter_Persistent
+[2022.04.10-08.41.50:849][536]LogPlayLevel: PIE: World Init took: (0.001316s)
+[2022.04.10-08.41.50:849][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Shooter_Persistent.Shooter_Persistent to /Game/Maps/UEDPIE_0_Shooter_Persistent.Shooter_Persistent (0.003850s)
+[2022.04.10-08.41.50:890][536]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2022.04.10-08.41.50:893][536]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2022.04.10-08.41.50:893][536]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.10-08.41.50:893][536]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.10-08.41.50:893][536]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.10-08.41.50:893][536]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.10-08.41.50:893][536]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.10-08.41.50:893][536]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.10-08.41.50:893][536]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.10-08.41.50:893][536]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.10-08.41.50:894][536]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.10-08.41.50:894][536]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.10-08.41.50:898][536]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.10-08.41.50:898][536]LogAudioMixer: Display: 1: FrontRight
+[2022.04.10-08.41.50:912][536]LogAudioMixer: Display: Using Audio Device Głośniki (High Definition Audio Device)
+[2022.04.10-08.41.50:913][536]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.10-08.41.50:913][536]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.10-08.41.50:913][536]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.10-08.41.50:913][536]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.10-08.41.50:914][536]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.10-08.41.50:914][536]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.10-08.41.50:931][536]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.10-08.41.50:931][536]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.10-08.41.50:931][536]LogInit: FAudioDevice initialized.
+[2022.04.10-08.41.50:931][536]LogAudio: Display: Audio Device (ID: 6) registered with world 'Shooter_Persistent'.
+[2022.04.10-08.41.50:945][536]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.04.10-08.41.50:946][536]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shooter_Persistent.Shooter_Persistent up for play (max tick rate 0) at 2022.04.10-10.41.50
+[2022.04.10-08.41.50:946][536]LogWorld: Bringing up level for play took: 0.000464
+[2022.04.10-08.41.50:946][536]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2022.04.10-08.41.50:949][536]LogLevel: ActivateLevel /Game/Maps/UEDPIE_0_Shooter_Level1 1 1 1
+[2022.04.10-08.41.50:950][536]PIE: Server logged in
+[2022.04.10-08.41.50:951][536]PIE: Play in editor total start time 0,109 seconds.
+[2022.04.10-08.41.51:157][537]LogLevel: ActivateLevel /Game/UEDPIE_0_PJ 1 1 1
+[2022.04.10-08.41.51:235][538]LogLevel: ActivateLevel /Game/Maps/UEDPIE_0_Shooter_World_Lights 1 1 1
+[2022.04.10-08.41.51:276][539]LogLevel: ActivateLevel /Game/Maps/UEDPIE_0_Shooter_StreamingLevel 1 1 1
+[2022.04.10-08.41.51:714][563]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PrimaryWeapon". Blueprint:  FPSPawn_BP Function:  Execute Ubergraph FPSPawn BP Graph:  EventGraph Node:  Fire
+[2022.04.10-08.41.51:714][563]LogAnimMontage: Warning: Playing a Montage (AK_Fire_anim_Montage) for the wrong Skeleton (FPSArms_rigged_Skeleton) instead of (AK_rigged_Skeleton).
+[2022.04.10-08.41.51:714][563]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PrimaryWeapon". Blueprint:  FPSPawn_BP Function:  Execute Ubergraph FPSPawn BP Graph:  EventGraph Node:  Fire
+[2022.04.10-08.41.51:714][563]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PrimaryWeapon". Blueprint:  FPSPawn_BP Function:  Execute Ubergraph FPSPawn BP Graph:  EventGraph Node:  Branch
+[2022.04.10-08.41.55:102][781]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PrimaryWeapon". Blueprint:  FPSPawn_BP Function:  Execute Ubergraph FPSPawn BP Graph:  EventGraph Node:  Fire
+[2022.04.10-08.41.55:102][781]LogAnimMontage: Warning: Playing a Montage (AK_Fire_anim_Montage) for the wrong Skeleton (FPSArms_rigged_Skeleton) instead of (AK_rigged_Skeleton).
+[2022.04.10-08.41.55:102][781]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PrimaryWeapon". Blueprint:  FPSPawn_BP Function:  Execute Ubergraph FPSPawn BP Graph:  EventGraph Node:  Fire
+[2022.04.10-08.41.55:102][781]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PrimaryWeapon". Blueprint:  FPSPawn_BP Function:  Execute Ubergraph FPSPawn BP Graph:  EventGraph Node:  Branch
+[2022.04.10-08.41.56:046][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.10-08.41.56:046][835]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Shooter_Persistent
+[2022.04.10-08.41.56:051][835]LogWorld: UWorld::CleanupWorld for Shooter_Persistent, bSessionEnded=true, bCleanupResources=true
+[2022.04.10-08.41.56:051][835]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.10-08.41.56:063][835]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.10-08.41.56:083][835]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.10-08.41.56:116][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.10-08.41.56:116][835]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.10-08.41.56:117][835]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.10-08.41.56:146][835]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2022.04.10-08.41.56:282][836]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2022.04.10-08.41.56:315][836]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2022.04.10-08.41.57:824][908]LogSlate: Window 'Message Log' being destroyed
+[2022.04.10-08.41.57:849][908]LogSlate: Window 'Message Log' being destroyed
+[2022.04.10-08.42.04:569][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2022.04.10-08.42.44:934][301]LogSlate: Window 'Shooter_Persistent' being destroyed
+[2022.04.10-08.42.44:943][301]LogSlate: Window 'Shooter_Persistent' being destroyed
+[2022.04.10-08.42.44:947][301]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.04.10-08.42.44:947][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
